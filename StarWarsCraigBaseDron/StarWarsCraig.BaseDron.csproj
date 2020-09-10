@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>StarWarsCraig.BaseDron</AssemblyName>
+    <RootNamespace>StarWarsCraig.BaseDron</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StarWarsCraig.Extension\StarWarsCraig.Extension.csproj" />
+    <ProjectReference Include="..\StarWarsCraig.ValidationPattern\StarWarsCraig.ValidationPattern.csproj" />
+  </ItemGroup>
+
+</Project>
